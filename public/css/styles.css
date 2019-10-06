@@ -33,7 +33,7 @@ h1 {
 
 header a {
     color: #888888;
-    margin-right: 16px;
+    margin-right: 5px;
     text-decoration: none;
 }
 
@@ -47,11 +47,28 @@ input {
     border-radius: 10px;
 }
 
-button {
+#search {
     cursor: pointer;
     border: 1px solid #888888;
     background: #888888;
     color: white;
     padding: 8px;
     border-radius: 10px;
+}
+
+.navigator {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #ffffff;
+    color: #888888;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    border:none;
+    width: 70px;
+}
+
+.navigator:hover {
+    background: #777777;
+    color: white;
 }
