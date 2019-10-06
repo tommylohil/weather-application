@@ -72,3 +72,10 @@ input {
     background: #777777;
     color: white;
 }
+
+#author {
+    background-color:#252525;
+    width: 240px;
+    padding-left: 20px;
+    color:rgb(165, 165, 165);
+}
